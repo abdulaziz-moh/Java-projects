@@ -1,3 +1,4 @@
+
 public class practice {
 
     String screen_output_syntax;
@@ -43,6 +44,7 @@ class pract_java extends practice{
     }  
 
 }
+
 
 class pract_cpp extends practice{
     void print_syntax(){

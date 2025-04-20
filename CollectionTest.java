@@ -6,14 +6,14 @@ public class CollectionTest {
 
    public static void main(String[] var0) {
       String[] var1 = new String[]{"MAGNETA", "RED", "WHITE", "BLUE", "CYAN"};
-      ArrayList var2 = new ArrayList();
+      ArrayList<Integer> var2 = new ArrayList<>();
       String[] var3 = var1;
       int var4 = var1.length;
 
       int var5;
       for(var5 = 0; var5 < var4; ++var5) {
          String var6 = var3[var5];
-         var2.add(var6);
+         // var2.add(var6);
       }
 
       var3 = new String[]{"RED", "WHITE", "BLUE"};

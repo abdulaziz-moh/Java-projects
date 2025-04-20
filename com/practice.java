@@ -35,7 +35,7 @@ public class practice {
         float sum = x+y;
         return sum;
     }
-
+    
     public static void main(String args[]){
 
         practice check = new pract_java();

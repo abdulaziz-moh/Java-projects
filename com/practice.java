@@ -16,6 +16,7 @@ public class practice {
         counts = counter;
     }
 
+
     void count(){
         System.out.println("I am object: " + counts);
     }
@@ -93,7 +94,7 @@ public class practice {
         System.out.println("");
         System.out.println("Explicit type casting (down casting )  showing\n   float z = 5.0f; \n   int a = (int)x returns an int : " + a);
     
-
+        System.out.println(Math.PI);
     }  
     
 

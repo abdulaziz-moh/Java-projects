@@ -1,35 +1,27 @@
 import java.util.ArrayList;
+import java.util.List;
 
 public class CollectionTest {
-   public CollectionTest() {
-   }
+   public static void main(String[] args) {
 
-   public static void main(String[] var0) {
-      String[] var1 = new String[]{"MAGNETA", "RED", "WHITE", "BLUE", "CYAN"};
-      ArrayList<Integer> var2 = new ArrayList<>();
-      String[] var3 = var1;
-      int var4 = var1.length;
+        //all colors
+      String[] allColors = new String[]{"MAGNETA", "RED", "WHITE", "BLUE", "CYAN"};
+      List<String> colors = new ArrayList<>();
 
-      int var5;
-      for(var5 = 0; var5 < var4; ++var5) {
-         String var6 = var3[var5];
-         // var2.add(var6);
+      for(int i = 0; i< allColors.length; ++i) {
+         colors.add(allColors[i]);
       }
+         //remove colors
+      String[] removeColors;
+      removeColors = new String[]{"RED", "WHITE", "BLUE"};
+      List<String> rColors = new ArrayList<>();
 
-      var3 = new String[]{"RED", "WHITE", "BLUE"};
-      ArrayList var9 = new ArrayList();
-      String[] var10 = var3;
-      int var11 = var3.length;
-
-      for(int var7 = 0; var7 < var11; ++var7) {
-         String var8 = var10[var7];
-         var9.add(var8);
+      for (String str:  removeColors){
+         rColors.add(str);
       }
-
-      System.out.println("ArrayList: ");
-
-      for(var5 = 0; var5 < var2.size(); ++var5) {
-         System.out.printf("%s", var2.get(var5));
+         //pring all colors before the removal
+      for (String str : allColors){
+         System.out.print(str + ", ");
       }
 
    }

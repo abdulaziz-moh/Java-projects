@@ -21,6 +21,11 @@ public class CollectionTest {
          rColors.add(str);
       }
 
+      //checking if all rColors found in colors(both should be a collection or its extension/implimentation)
+      if(colors.containsAll(rColors)){
+         System.out.println("this 'colors' contains all elements of 'rColors' ");
+      }
+
          //pring all colors before the removal
       for (String str : allColors){
          System.out.print(str + ", ");
@@ -34,6 +39,15 @@ public class CollectionTest {
          System.out.print(str + ", ");
       }
       System.out.println("");
+
+      //the collection array after the function clear()
+      colors.clear();
+      if (colors.isEmpty()){
+         System.out.println("the  color collection array is empty!!");
+      }
+      for (String str :colors){
+         System.out.print(str +"  ");
+      }
 
 
    }

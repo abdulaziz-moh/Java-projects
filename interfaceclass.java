@@ -1,11 +1,11 @@
-public interface interfaceclass {
+public interface InterfaceClass {
     
     //by defult the functions here are abstract
     int add(int a, int b);
     int subtract(int a, int b);
 }
 
-class mathematics implements interfaceclass{
+class mathematics implements InterfaceClass{
 
       // the interface ENFORCES the implimenter class to impliment all the abstruct methods inside it.
 

@@ -1,4 +1,4 @@
-public abstract class abstractclass {
+public abstract class AbstractcClass {
     public void print(){
         System.out.println("hello world");
     }
@@ -6,7 +6,7 @@ public abstract class abstractclass {
                                         // WE CAN ONLY HAVE ABSTRUCT METHODS INSIDE ABSTRACT CLASS.
 }
 
-class inheritabstract extends abstractclass {
+class inheritabstract extends AbstractcClass {
 
     public void mustinherit(){  // IT'S MUST TO INHERIT THE FUNCTION mustinherit() BECAUSE IT'S ABSTRACT METHOD
                                 // CANNOT REDUCE THE VISIBLIYT OF THE INHERITED CLASS i.e FOR THIS CASE THE mustinherit() function cannot be less visible than PUBLIC.

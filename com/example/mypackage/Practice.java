@@ -1,16 +1,16 @@
-package com;
+package com.example.mypackage;
 import java.util.Random;
 
 
 import java.lang.Math;
 import java.util.ArrayList;
 
-public class practice {
+public class Practice {
 
     String screen_output_syntax;
     static int counter = 0;
     int counts = 0;
-    practice(){
+    Practice(){
         counter++;
         counts = counter;
     }
@@ -43,9 +43,9 @@ public class practice {
 
 
 
-        practice obj0 = new practice();
-        practice obj1 = new practice();
-        practice obj2 = new practice();
+        Practice obj0 = new Practice();
+        Practice obj1 = new Practice();
+        Practice obj2 = new Practice();
         obj0.count();
         obj1.count();
         obj2.count();
@@ -55,8 +55,8 @@ public class practice {
         System.out.println("sum wiht in float : " + add(1.0f,2.0f));
 
         // method overriding (dynamic bindig , polimorphism)
-        practice cppss = new pract_cpp();
-        practice javass = new pract_java();
+        Practice cppss = new pract_cpp();
+        Practice javass = new pract_java();
         
         cppss.print_syntax();
         javass.print_syntax();
@@ -99,7 +99,7 @@ public class practice {
     
 }
 
-class pract_java extends practice{
+class pract_java extends Practice{
     void print_syntax(){
         screen_output_syntax = "System.out.println('hello world'); ";
         System.out.println(screen_output_syntax);
@@ -112,7 +112,7 @@ class pract_java extends practice{
 }
 
 
-class pract_cpp extends practice{
+class pract_cpp extends Practice{
     void print_syntax(){
         screen_output_syntax = "cout <<'hello world'; ";
         System.out.println(screen_output_syntax);

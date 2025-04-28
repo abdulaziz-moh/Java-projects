@@ -1,5 +1,5 @@
-public class superkeyword {
-    public superkeyword(int x){
+public class SuperKeyword {
+    public SuperKeyword(int x){
 
     }
     public static void main(String [] args){
@@ -7,7 +7,7 @@ public class superkeyword {
     }
 }
 
-class subclass extends superkeyword{
+class subclass extends SuperKeyword{
     
     public subclass(int y){
         super(y);            //comment this line to see:  

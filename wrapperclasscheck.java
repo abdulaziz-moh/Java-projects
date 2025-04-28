@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.List;
 import java.util.LinkedList;
-public class wrapperclasscheck {
+public class WrapperClasscheck {
 
     public static void main(String [] args){
 

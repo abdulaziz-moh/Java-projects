@@ -1,6 +1,12 @@
 public class Anonymousclass {
 
-    static cooknow abebe = new cooknow(){
+
+    public static void main (String [] args){
+        System.out.println("Here we are going check an inner Anonymous class called 'abebe' inside 'Anonymousclass' ");
+        abebe.canCook("doro");
+    }
+
+    public static cooknow abebe = new cooknow(){
         String[] cooked = {"doro","cake","bread"};
 
         public void canCook(String name){
@@ -23,10 +29,7 @@ public class Anonymousclass {
     }
     
 
-    public static void main(String [] args){
-        System.out.println("Here we are going check an inner Anonymous class called 'abebe' inside 'Anonymousclass' ");
-        abebe.canCook("doro");
-    }
+    
 
     
 }

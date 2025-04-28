@@ -11,7 +11,7 @@ public class ReadFromSystemIn {
             int byteRead;
             int i = 0;
             // Read bytes one by one until the Enter key is pressed
-            while ((byteRead = System.in.read()) != -1) {
+            while ((byteRead = inputStream.read()) != -1) {
                 char character = (char) byteRead;
                 // Check for the Enter key (platform-dependent, might need adjustments)
                 if (character == '\n') {

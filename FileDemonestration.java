@@ -6,6 +6,7 @@ public class FileDemonestration {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the file or directory path: ");
         analyzePath(input.nextLine());
+        input.close();
     } 
 
     static void analyzePath(String path ){

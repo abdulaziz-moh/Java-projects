@@ -38,11 +38,6 @@ public class Practice {
     
     public static void main(String args[]){
 
-        
-
-
-
-
         Practice obj0 = new Practice();
         Practice obj1 = new Practice();
         Practice obj2 = new Practice();
